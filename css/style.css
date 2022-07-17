@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.header {
+  background-image: linear-gradient(-31deg, #378fd9 -3%, #4ebefe 103%);
+  padding: 62px 0px 72px 0px;
+  margin: 0px 0px 108px 0px;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  display: block;
+  margin: 0px 0px 10px 0px;
+}
+
+.header__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__dream {
+  font-weight: 700;
+  margin: 0px 0px 27px 0px;
+  font-size: 37px;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.header__dream span {
+  font-size: 59px;
+  line-height: 73px;
+  letter-spacing: 0.03em;
+}
+
+.header__nonstop {
+  max-width: 397px;
+  margin: 0px 0px 35px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.header__moove {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #2e2a1b;
+  background-color: #ffd429;
+  padding: 15px 26px 15px 28px;
+  font-weight: 900;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.future {
+  margin: 0px 0px 150px 0px;
+}
+
+.future__h2 {
+  margin: 0px 0px 73px 0px;
+}
+
+.h2 {
+  font-size: 30px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-weight: 700;
+}
+
+.future__colums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -70px;
+}
+
+.future__column {
+  text-align: center;
+  padding: 0 70px;
+}
+
+.future__column img {
+  margin: 0px 0px 29px 0px;
+  height: 70px;
+}
+
+.future__h3 {
+  margin: 0px 0px 17px 0px;
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.future__text {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.form {
+  padding: 104px 0px 106px 0px;
+  background-color: #ecf3f8;
+}
+
+.form__h2 {
+  margin: 0px 0px 57px 0px;
+}
+
+.form__main {
+  width: 343px;
+  margin: 0 auto;
+}
+
+.form__input {
+  display: block;
+  border: 1px solid #bbbbbb;
+  border-radius: 3px;
+  padding: 17px 25px;
+  margin: 0px 0px 15px 0px;
+  width: 343px;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffd429;
+  width: 343px;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  height: 55px;
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #164d7a;
+  padding: 62px 0;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
